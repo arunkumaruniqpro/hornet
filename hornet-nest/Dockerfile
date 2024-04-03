@@ -7,7 +7,7 @@ FROM iotaledger/inx-spammer:1.0 AS spammer
 FROM iotaledger/inx-coordinator:1.0 AS coordinator
 FROM iotaledger/inx-poi:1.0 AS poi
 
-FROM debian:11
+FROM debian:bookworm-20240211
 
 # hornet-1 API
 EXPOSE 14265/tcp
